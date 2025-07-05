@@ -1,0 +1,10 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Simplified Cure logo for favicon -->
+  <rect width="32" height="32" fill="#ffffff"/>
+  
+  <!-- Letter C -->
+  <path d="M4 16 C4 10, 8 6, 14 6 C18 6, 20 8, 20 8 L18 12 C18 12, 16 10, 14 10 C10 10, 8 12, 8 16 C8 20, 10 22, 14 22 C16 22, 18 20, 18 20 L20 24 C20 24, 18 26, 14 26 C8 26, 4 22, 4 16 Z" fill="#2c2c2c"/>
+  
+  <!-- Sigma symbol -->
+  <text x="18" y="22" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#00b894">Σ</text>
+</svg>
