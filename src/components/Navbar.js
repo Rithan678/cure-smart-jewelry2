@@ -31,6 +31,32 @@ const Logo = styled.div`
   transition: all 0.3s ease;
   padding: 0.5rem 1rem;
   border-radius: 8px;
+  font-family: 'Arial', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+
+  .cure-text {
+    color: #ffffff;
+    margin-right: 0.5rem;
+  }
+
+  .sigma-symbol {
+    color: #00b894;
+    margin-right: 0.5rem;
+  }
+
+  .lines {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .line {
+    width: 20px;
+    height: 2px;
+    background: #00b894;
+  }
 
   img {
     height: 50px;
@@ -48,6 +74,7 @@ const Logo = styled.div`
 
   &:hover {
     background: rgba(0, 184, 148, 0.05);
+    transform: scale(1.05);
   }
 `;
 
@@ -192,7 +219,13 @@ const Navbar = () => {
     <NavbarContainer scrolled={scrolled}>
       <NavContent>
         <Logo onClick={() => scrollToSection('hero')}>
-          <img src="/images/cure-logo-navbar.svg" alt="Cure Logo" />
+          <span className="cure-text">Cure</span>
+          <span className="sigma-symbol">Σ</span>
+          <div className="lines">
+            <div className="line"></div>
+            <div className="line"></div>
+            <div className="line"></div>
+          </div>
         </Logo>
         
         <NavLinks>

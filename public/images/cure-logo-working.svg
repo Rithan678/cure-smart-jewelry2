@@ -1,0 +1,15 @@
+<svg width="140" height="60" viewBox="0 0 140 60" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background for visibility -->
+  <rect width="140" height="60" fill="transparent"/>
+  
+  <!-- "Cure" text in white -->
+  <text x="5" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff">Cure</text>
+  
+  <!-- Sigma symbol in green -->
+  <text x="80" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#00b894">Σ</text>
+  
+  <!-- Three horizontal lines in green -->
+  <rect x="100" y="15" width="30" height="3" fill="#00b894"/>
+  <rect x="100" y="25" width="30" height="3" fill="#00b894"/>
+  <rect x="100" y="35" width="30" height="3" fill="#00b894"/>
+</svg>

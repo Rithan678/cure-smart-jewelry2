@@ -44,6 +44,30 @@ const FooterLogo = styled.div`
   display: flex;
   align-items: center;
   margin-bottom: 1.5rem;
+  font-family: 'Arial', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  gap: 0.5rem;
+  
+  .cure-text {
+    color: #ffffff;
+  }
+
+  .sigma-symbol {
+    color: #00b894;
+  }
+
+  .lines {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .line {
+    width: 20px;
+    height: 2px;
+    background: #00b894;
+  }
   
   img {
     height: 50px;
@@ -201,7 +225,13 @@ const Footer = () => {
           viewport={{ once: true }}
         >
           <FooterLogo>
-            <img src="/images/cure-logo-navbar.svg" alt="Cure Logo" />
+            <span className="cure-text">Cure</span>
+            <span className="sigma-symbol">Σ</span>
+            <div className="lines">
+              <div className="line"></div>
+              <div className="line"></div>
+              <div className="line"></div>
+            </div>
           </FooterLogo>
           <p>
             Revolutionizing the wearable technology industry by creating 

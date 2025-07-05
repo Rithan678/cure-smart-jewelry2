@@ -37,6 +37,34 @@ const HeroLogo = styled(motion.div)`
   justify-content: center;
   align-items: center;
   margin-bottom: 2rem;
+  font-family: 'Arial', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  gap: 1rem;
+  
+  .cure-text {
+    color: #ffffff;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+  }
+
+  .sigma-symbol {
+    color: #00b894;
+    font-size: 3.5rem;
+    text-shadow: 0 0 30px rgba(0, 184, 148, 0.6);
+  }
+
+  .lines {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .line {
+    width: 40px;
+    height: 4px;
+    background: #00b894;
+    box-shadow: 0 0 20px rgba(0, 184, 148, 0.6);
+  }
   
   img {
     height: clamp(60px, 12vw, 120px);
@@ -268,7 +296,13 @@ const HeroSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.2 }}
         >
-          <img src="/images/cure-logo-navbar.svg" alt="Cure Logo" />
+          <span className="cure-text">Cure</span>
+          <span className="sigma-symbol">Σ</span>
+          <div className="lines">
+            <div className="line"></div>
+            <div className="line"></div>
+            <div className="line"></div>
+          </div>
         </HeroLogo>
         
         <HeroTagline
