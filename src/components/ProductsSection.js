@@ -226,15 +226,15 @@ const ProductsSection = () => {
   };
 
   const getFallbackImage = (productName) => {
-    if (productName.includes('Ring') && !productName.includes('Wedding')) return '/images/products/cure-smart-ring-gold.jpg';
-    if (productName.includes('Necklace') || productName.includes('Chain')) return '/images/products/whatsapp-image-2780a6b0.jpg';
-    if (productName.includes('Wedding')) return '/images/products/whatsapp-image-265569aa.jpg';
-    if (productName.includes('Charging') && productName.includes('Station')) return '/images/products/cure-charging-station-promo.jpg';
-    if (productName.includes('Charging') && productName.includes('Box')) return '/images/products/cure-charging-station-white.jpg';
-    if (productName.includes('Blue') || productName.includes('Gemstone')) return '/images/products/whatsapp-image-fc590f9e.jpg';
-    if (productName.includes('Gift') || productName.includes('Luxury')) return '/images/products/whatsapp-image-6609035e.jpg';
-    if (productName.includes('Sigma') || productName.includes('Collection')) return '/images/products/whatsapp-image-4585b82c.jpg';
-    return '/images/products/whatsapp-image-774fac3c.jpg';
+    if (productName.includes('Ring') && !productName.includes('Wedding')) return `${process.env.PUBLIC_URL}/images/products/cure-smart-ring-gold.jpg`;
+    if (productName.includes('Necklace') || productName.includes('Chain')) return `${process.env.PUBLIC_URL}/images/products/whatsapp-image-2780a6b0.jpg`;
+    if (productName.includes('Wedding')) return `${process.env.PUBLIC_URL}/images/products/whatsapp-image-fc590f9e.jpg`;
+    if (productName.includes('Charging') && productName.includes('Station')) return `${process.env.PUBLIC_URL}/images/products/cure-charging-station-promo.jpg`;
+    if (productName.includes('Charging') && productName.includes('Box')) return `${process.env.PUBLIC_URL}/images/products/cure-charging-station-white.jpg`;
+    if (productName.includes('Blue') || productName.includes('Gemstone')) return `${process.env.PUBLIC_URL}/images/products/whatsapp-image-774fac3c.jpg`;
+    if (productName.includes('Gift') || productName.includes('Luxury')) return `${process.env.PUBLIC_URL}/images/products/whatsapp-image-6609035e.jpg`;
+    if (productName.includes('Sigma') || productName.includes('Collection')) return `${process.env.PUBLIC_URL}/images/products/whatsapp-image-4585b82c.jpg`;
+    return `${process.env.PUBLIC_URL}/images/products/whatsapp-image-265569aa.jpg`;
   };
 
   const handleImageError = (productId) => {
@@ -246,7 +246,7 @@ const ProductsSection = () => {
       id: 1,
       name: "Cure Me Diamond Wedding Set",
       price: "₹95,000 - ₹1,50,000",
-      image: "/images/products/whatsapp-image-fc590f9e.jpg",
+      image: `${process.env.PUBLIC_URL}/images/products/whatsapp-image-fc590f9e.jpg`,
       badge: "Bestseller",
       description: "Exquisite diamond wedding and engagement rings with intricate detailing, celebrating life's precious moments with smart technology.",
       features: [
@@ -261,7 +261,7 @@ const ProductsSection = () => {
       id: 2,
       name: "Cure Me Smart Ring Pro",
       price: "₹55,000 - ₹1,99,000",
-      image: "/images/products/whatsapp-image-265569aa.jpg",
+      image: `${process.env.PUBLIC_URL}/images/products/cure-smart-ring-gold.jpg`,
       badge: "Hot",
       description: "Advanced smart ring with transparent design showing internal circuitry, featuring Cure's cutting-edge wearable technology.",
       features: [
@@ -276,7 +276,7 @@ const ProductsSection = () => {
       id: 3,
       name: "Cure Me Fast Charging Station",
       price: "₹15,000 - ₹30,000",
-      image: "/images/products/whatsapp-image-bdd57aff.jpg",
+      image: `${process.env.PUBLIC_URL}/images/products/cure-charging-station-promo.jpg`,
       badge: "Essential",
       description: "Premium black charging station for all your Cure devices with fast charging capabilities in just 30 minutes.",
       features: [
@@ -291,7 +291,7 @@ const ProductsSection = () => {
       id: 4,
       name: "Cure Me Elite Charging Box",
       price: "₹15,000 - ₹30,000",
-      image: "/images/products/whatsapp-image-1739afa3.jpg",
+      image: `${process.env.PUBLIC_URL}/images/products/whatsapp-image-1739afa3.jpg`,
       badge: "Limited",
       description: "Luxury white charging station with premium materials and fast charging technology for your complete Cure collection.",
       features: [
@@ -306,7 +306,7 @@ const ProductsSection = () => {
       id: 5,
       name: "Cure Me Pendant Necklace",
       price: "₹70,000 - ₹95,000",
-      image: "/images/products/whatsapp-image-2780a6b0.jpg",
+      image: `${process.env.PUBLIC_URL}/images/products/whatsapp-image-2780a6b0.jpg`,
       badge: "New",
       description: "Beautiful pendant necklace in luxury packaging, perfect for gifting with smart jewelry technology integrated.",
       features: [
@@ -321,9 +321,9 @@ const ProductsSection = () => {
       id: 6,
       name: "Cure Me Collection Ring",
       price: "₹1,50,000 - ₹2,20,000",
-      image: "/images/products/whatsapp-image-2780a6b0.jpg",
+      image: `${process.env.PUBLIC_URL}/images/products/whatsapp-image-4585b82c.jpg`,
       badge: "Signature",
-      description: "Signature Cure ring with  featuring premium gold finish and advanced biometric sensors.",
+      description: "Signature Cure ring with the iconic Σ symbol, featuring premium gold finish and advanced biometric sensors.",
       features: [
         "Premium Gold Finish",
         "Advanced Biometrics",
@@ -335,7 +335,7 @@ const ProductsSection = () => {
       id: 7,
       name: "Cure Me Blue Gemstone Collection",
       price: "₹95,000 - ₹1,40,000",
-      image: "/images/products/whatsapp-image-774fac3c.jpg",
+      image: `${process.env.PUBLIC_URL}/images/products/whatsapp-image-774fac3c.jpg`,
       badge: "Luxury",
       description: "Complete jewelry set with matching necklaces, earrings, and rings featuring stunning blue gemstones and gold accents.",
       features: [
@@ -350,7 +350,7 @@ const ProductsSection = () => {
       id: 8,
       name: "Cure Me Luxury Gift Collection",
       price: "₹1,60,000 - ₹2,70,000",
-      image: "/images/products/whatsapp-image-6609035e.jpg",
+      image: `${process.env.PUBLIC_URL}/images/products/whatsapp-image-6609035e.jpg`,
       badge: "Gift",
       description: "Beautiful luxury gift sets in premium gold packaging, perfect for special occasions and celebrations.",
       features: [
@@ -365,9 +365,9 @@ const ProductsSection = () => {
       id: 9,
       name: "Cure Me Smart Chain Collection",
       price: "₹45,000 - ₹85,000",
-      image: "/images/products/whatsapp-image-4585b82c.jpg",
+      image: `${process.env.PUBLIC_URL}/images/products/whatsapp-image-265569aa.jpg`,
       badge: "Premium",
-      description: "Elegant smart necklace chain featuring with premium materials and smart health monitoring.",
+      description: "Elegant smart necklace chain featuring the iconic Σ symbol with premium materials and smart health monitoring.",
       features: [
         "Premium Chain Design",
         "Smart Health Monitoring",
