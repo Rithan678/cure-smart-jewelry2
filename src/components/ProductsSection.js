@@ -226,11 +226,11 @@ const ProductsSection = () => {
   };
 
   const getFallbackImage = (productName) => {
-    if (productName.includes('Ring') && !productName.includes('Wedding')) return '\images\products\WhatsApp Image 2025-07-03 at 21.16.10_265569aa.jpg';
+    if (productName.includes('Ring') && !productName.includes('Wedding')) return '/images/products/WhatsApp Image 2025-07-03 at 21.16.10_265569aa.jpg';
     if (productName.includes('Necklace') || productName.includes('Chain')) return '/images/products/smart-necklace.jpg';
     if (productName.includes('Wedding')) return '/images/products/wedding-rings.jpg';
     if (productName.includes('Charging') && productName.includes('Station')) return '/images/products/charging-station-black.jpg';
-    if (productName.includes('Charging') && productName.includes('Box')) return '/images/products/charging-station-white.jpg';
+    if (productName.includes('Charging') && productName.includes('Box')) return '/images/products/cure-charging-station-promo.jpg';
     if (productName.includes('Blue') || productName.includes('Gemstone')) return '/images/products/blue-jewelry-set.jpg';
     if (productName.includes('Gift') || productName.includes('Luxury')) return '/images/products/luxury-gift-boxes.jpg';
     if (productName.includes('Sigma') || productName.includes('Collection')) return '/images/products/sigma-ring.jpg';
@@ -291,7 +291,7 @@ const ProductsSection = () => {
       id: 4,
       name: "Cure Me Elite Charging Box",
       price: "₹15,000 - ₹30,000",
-      image: "/images/products/charging-station-white.jpg",
+      image: "/images/products/cure-charging-station-promo.jpg",
       badge: "Limited",
       description: "Luxury white charging station with premium materials and fast charging technology for your complete Cure collection.",
       features: [
