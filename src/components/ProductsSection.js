@@ -229,7 +229,7 @@ const ProductsSection = () => {
     if (productName.includes('Ring') && !productName.includes('Wedding')) return `${process.env.PUBLIC_URL}/images/products/cure-smart-ring-gold.jpg`;
     if (productName.includes('Necklace') || productName.includes('Chain')) return `${process.env.PUBLIC_URL}/images/products/whatsapp-image-2780a6b0.jpg`;
     if (productName.includes('Wedding')) return `${process.env.PUBLIC_URL}/images/products/whatsapp-image-fc590f9e.jpg`;
-    if (productName.includes('Charging') && productName.includes('Station')) return `${process.env.PUBLIC_URL}/images/products/cure-charging-station-promo.jpg`;
+    if (productName.includes('Charging') && productName.includes('Station')) return `${process.env.PUBLIC_URL}/images/products/whatsapp-image-bdd57aff.jpg`;
     if (productName.includes('Charging') && productName.includes('Box')) return `${process.env.PUBLIC_URL}/images/products/cure-charging-station-white.jpg`;
     if (productName.includes('Blue') || productName.includes('Gemstone')) return `${process.env.PUBLIC_URL}/images/products/whatsapp-image-774fac3c.jpg`;
     if (productName.includes('Gift') || productName.includes('Luxury')) return `${process.env.PUBLIC_URL}/images/products/whatsapp-image-6609035e.jpg`;
