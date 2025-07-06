@@ -226,7 +226,7 @@ const ProductsSection = () => {
   };
 
   const getFallbackImage = (productName) => {
-    if (productName.includes('Ring') && !productName.includes('Wedding')) return '/images/products/smart-ring.jpg';
+    if (productName.includes('Ring') && !productName.includes('Wedding')) return '\images\products\WhatsApp Image 2025-07-03 at 21.16.10_265569aa.jpg';
     if (productName.includes('Necklace') || productName.includes('Chain')) return '/images/products/smart-necklace.jpg';
     if (productName.includes('Wedding')) return '/images/products/wedding-rings.jpg';
     if (productName.includes('Charging') && productName.includes('Station')) return '/images/products/charging-station-black.jpg';
