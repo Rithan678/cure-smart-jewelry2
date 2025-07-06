@@ -306,7 +306,7 @@ const ProductsSection = () => {
       id: 5,
       name: "Cure Me Pendant Necklace",
       price: "₹70,000 - ₹95,000",
-      image: `${process.env.PUBLIC_URL}/images/products/whatsapp-image-2780a6b0.jpg`,
+      image: `${process.env.PUBLIC_URL}/images/products/whatsapp-image-fc590f9e.jpg`,
       badge: "New",
       description: "Beautiful pendant necklace in luxury packaging, perfect for gifting with smart jewelry technology integrated.",
       features: [
@@ -321,9 +321,9 @@ const ProductsSection = () => {
       id: 6,
       name: "Cure Me Collection Ring",
       price: "₹1,50,000 - ₹2,20,000",
-      image: `${process.env.PUBLIC_URL}/images/products/whatsapp-image-4585b82c.jpg`,
+      image: `${process.env.PUBLIC_URL}/images/products/whatsapp-image-2780a6b0.jpg`,
       badge: "Signature",
-      description: "Signature Cure ring with the iconic Σ symbol, featuring premium gold finish and advanced biometric sensors.",
+      description: "Signature Cure ring with the featuring premium gold finish and advanced biometric sensors.",
       features: [
         "Premium Gold Finish",
         "Advanced Biometrics",
@@ -365,7 +365,7 @@ const ProductsSection = () => {
       id: 9,
       name: "Cure Me Smart Chain Collection",
       price: "₹45,000 - ₹85,000",
-      image: `${process.env.PUBLIC_URL}/images/products/whatsapp-image-265569aa.jpg`,
+      image: `${process.env.PUBLIC_URL}/images/products/whatsapp-image-4585b82c.jpg`,
       badge: "Premium",
       description: "Elegant smart necklace chain featuring the iconic Σ symbol with premium materials and smart health monitoring.",
       features: [
