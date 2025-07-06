@@ -276,7 +276,7 @@ const ProductsSection = () => {
       id: 3,
       name: "Cure Me Fast Charging Station",
       price: "₹15,000 - ₹30,000",
-      image: `${process.env.PUBLIC_URL}/images/products/cure-charging-station-promo.jpg`,
+      image: `${process.env.PUBLIC_URL}/images/products/whatsapp-image-bdd57aff.jpg`,
       badge: "Essential",
       description: "Premium black charging station for all your Cure devices with fast charging capabilities in just 30 minutes.",
       features: [
