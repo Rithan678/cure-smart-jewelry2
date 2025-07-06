@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Cure Me - Luxury Smart Jewelry & Wearable Technology React App",
   "main": "src/index.js",
-  "homepage": "https://Rithan678.github.io/cure-smart-jewelry2",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
